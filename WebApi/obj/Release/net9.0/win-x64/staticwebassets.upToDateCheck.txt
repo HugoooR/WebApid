@@ -1,0 +1,6 @@
+D:\C#\Exercice\WebApi\wwwroot\addresses\index.html
+D:\C#\Exercice\WebApi\wwwroot\addresses\script.js
+D:\C#\Exercice\WebApi\wwwroot\addresses\styles.css
+wwwroot\addresses\index.html
+wwwroot\addresses\script.js
+wwwroot\addresses\styles.css

@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "Tqbyj9DAZGqj50QQsgz6HwEagSxcqB1bBZ0kyrD3gmo=",
+  "Source": "WebApi",
+  "BasePath": "_content/WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApi\\wwwroot",
+      "Source": "WebApi",
+      "ContentRoot": "D:\\C#\\Exercice\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\egzk9tdsnd-j2gk28afgl.gz",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "addresses/index#[.{fingerprint=j2gk28afgl}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "c3txbr03wy",
+      "Integrity": "iAj0B0dCRlYRH11n8tB3EV/rTq4aviBVPIgKIxUFC5E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\index.html"
+    },
+    {
+      "Identity": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\nzj0nkroy6-9pohwzgigp.gz",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "addresses/script#[.{fingerprint=9pohwzgigp}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6tw3bbg6q6",
+      "Integrity": "JsA1Sk35Hgn7AONmj3iI31gTmmwKoiQ+ZG0RJOWX7V4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\script.js"
+    },
+    {
+      "Identity": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\qqf4d4bg06-g1i1oi64cv.gz",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "addresses/styles#[.{fingerprint=g1i1oi64cv}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "muexz10vka",
+      "Integrity": "ks/Ganab3YbjG1gogVANSUfviMOdPdn6A3vOm9GMcJQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\styles.css"
+    },
+    {
+      "Identity": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\index.html",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\Exercice\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "addresses/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j2gk28afgl",
+      "Integrity": "W1D3AOuTHtQkjvdBz/cgNDqzBXcUyhD40wGqq73Ti1o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\addresses\\index.html"
+    },
+    {
+      "Identity": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\script.js",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\Exercice\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "addresses/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9pohwzgigp",
+      "Integrity": "s1zVKFQ1AWiBt6k9wXCYddB6T27OirhZ7eHCpjVyrVo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\addresses\\script.js"
+    },
+    {
+      "Identity": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\styles.css",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\Exercice\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "addresses/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g1i1oi64cv",
+      "Integrity": "lBFDvzKz5+lA0ZaULgBtwn8yAxWk2b9dhtBjwcsRS78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\addresses\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "addresses/index.html",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\egzk9tdsnd-j2gk28afgl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001351351351"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "739"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iAj0B0dCRlYRH11n8tB3EV/rTq4aviBVPIgKIxUFC5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"W1D3AOuTHtQkjvdBz/cgNDqzBXcUyhD40wGqq73Ti1o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W1D3AOuTHtQkjvdBz/cgNDqzBXcUyhD40wGqq73Ti1o="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/index.html",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W1D3AOuTHtQkjvdBz/cgNDqzBXcUyhD40wGqq73Ti1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W1D3AOuTHtQkjvdBz/cgNDqzBXcUyhD40wGqq73Ti1o="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/index.html.gz",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\egzk9tdsnd-j2gk28afgl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iAj0B0dCRlYRH11n8tB3EV/rTq4aviBVPIgKIxUFC5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iAj0B0dCRlYRH11n8tB3EV/rTq4aviBVPIgKIxUFC5E="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/index.j2gk28afgl.html",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\egzk9tdsnd-j2gk28afgl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001351351351"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "739"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iAj0B0dCRlYRH11n8tB3EV/rTq4aviBVPIgKIxUFC5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"W1D3AOuTHtQkjvdBz/cgNDqzBXcUyhD40wGqq73Ti1o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j2gk28afgl"
+        },
+        {
+          "Name": "label",
+          "Value": "addresses/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W1D3AOuTHtQkjvdBz/cgNDqzBXcUyhD40wGqq73Ti1o="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/index.j2gk28afgl.html",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W1D3AOuTHtQkjvdBz/cgNDqzBXcUyhD40wGqq73Ti1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j2gk28afgl"
+        },
+        {
+          "Name": "label",
+          "Value": "addresses/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W1D3AOuTHtQkjvdBz/cgNDqzBXcUyhD40wGqq73Ti1o="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/index.j2gk28afgl.html.gz",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\egzk9tdsnd-j2gk28afgl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iAj0B0dCRlYRH11n8tB3EV/rTq4aviBVPIgKIxUFC5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j2gk28afgl"
+        },
+        {
+          "Name": "label",
+          "Value": "addresses/index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iAj0B0dCRlYRH11n8tB3EV/rTq4aviBVPIgKIxUFC5E="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/script.9pohwzgigp.js",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\nzj0nkroy6-9pohwzgigp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000809061489"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1235"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsA1Sk35Hgn7AONmj3iI31gTmmwKoiQ+ZG0RJOWX7V4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"s1zVKFQ1AWiBt6k9wXCYddB6T27OirhZ7eHCpjVyrVo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9pohwzgigp"
+        },
+        {
+          "Name": "label",
+          "Value": "addresses/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s1zVKFQ1AWiBt6k9wXCYddB6T27OirhZ7eHCpjVyrVo="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/script.9pohwzgigp.js",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s1zVKFQ1AWiBt6k9wXCYddB6T27OirhZ7eHCpjVyrVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9pohwzgigp"
+        },
+        {
+          "Name": "label",
+          "Value": "addresses/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s1zVKFQ1AWiBt6k9wXCYddB6T27OirhZ7eHCpjVyrVo="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/script.9pohwzgigp.js.gz",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\nzj0nkroy6-9pohwzgigp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsA1Sk35Hgn7AONmj3iI31gTmmwKoiQ+ZG0RJOWX7V4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9pohwzgigp"
+        },
+        {
+          "Name": "label",
+          "Value": "addresses/script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JsA1Sk35Hgn7AONmj3iI31gTmmwKoiQ+ZG0RJOWX7V4="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/script.js",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\nzj0nkroy6-9pohwzgigp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000809061489"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1235"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsA1Sk35Hgn7AONmj3iI31gTmmwKoiQ+ZG0RJOWX7V4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"s1zVKFQ1AWiBt6k9wXCYddB6T27OirhZ7eHCpjVyrVo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s1zVKFQ1AWiBt6k9wXCYddB6T27OirhZ7eHCpjVyrVo="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/script.js",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s1zVKFQ1AWiBt6k9wXCYddB6T27OirhZ7eHCpjVyrVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s1zVKFQ1AWiBt6k9wXCYddB6T27OirhZ7eHCpjVyrVo="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/script.js.gz",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\nzj0nkroy6-9pohwzgigp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JsA1Sk35Hgn7AONmj3iI31gTmmwKoiQ+ZG0RJOWX7V4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JsA1Sk35Hgn7AONmj3iI31gTmmwKoiQ+ZG0RJOWX7V4="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/styles.css",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\qqf4d4bg06-g1i1oi64cv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001724137931"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ks/Ganab3YbjG1gogVANSUfviMOdPdn6A3vOm9GMcJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lBFDvzKz5+lA0ZaULgBtwn8yAxWk2b9dhtBjwcsRS78=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lBFDvzKz5+lA0ZaULgBtwn8yAxWk2b9dhtBjwcsRS78="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/styles.css",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lBFDvzKz5+lA0ZaULgBtwn8yAxWk2b9dhtBjwcsRS78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lBFDvzKz5+lA0ZaULgBtwn8yAxWk2b9dhtBjwcsRS78="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/styles.css.gz",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\qqf4d4bg06-g1i1oi64cv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ks/Ganab3YbjG1gogVANSUfviMOdPdn6A3vOm9GMcJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ks/Ganab3YbjG1gogVANSUfviMOdPdn6A3vOm9GMcJQ="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/styles.g1i1oi64cv.css",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\qqf4d4bg06-g1i1oi64cv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001724137931"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ks/Ganab3YbjG1gogVANSUfviMOdPdn6A3vOm9GMcJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lBFDvzKz5+lA0ZaULgBtwn8yAxWk2b9dhtBjwcsRS78=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1i1oi64cv"
+        },
+        {
+          "Name": "label",
+          "Value": "addresses/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lBFDvzKz5+lA0ZaULgBtwn8yAxWk2b9dhtBjwcsRS78="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/styles.g1i1oi64cv.css",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\wwwroot\\addresses\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lBFDvzKz5+lA0ZaULgBtwn8yAxWk2b9dhtBjwcsRS78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1i1oi64cv"
+        },
+        {
+          "Name": "label",
+          "Value": "addresses/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lBFDvzKz5+lA0ZaULgBtwn8yAxWk2b9dhtBjwcsRS78="
+        }
+      ]
+    },
+    {
+      "Route": "addresses/styles.g1i1oi64cv.css.gz",
+      "AssetFile": "D:\\C#\\Exercice\\WebApi\\obj\\Release\\net9.0\\compressed\\qqf4d4bg06-g1i1oi64cv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ks/Ganab3YbjG1gogVANSUfviMOdPdn6A3vOm9GMcJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 11:42:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1i1oi64cv"
+        },
+        {
+          "Name": "label",
+          "Value": "addresses/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ks/Ganab3YbjG1gogVANSUfviMOdPdn6A3vOm9GMcJQ="
+        }
+      ]
+    }
+  ]
+}

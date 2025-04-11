@@ -1,0 +1,12 @@
+D:\C#\Exercice\Exercice\bin\Release\net9.0\Exercice.deps.json
+D:\C#\Exercice\Exercice\bin\Release\net9.0\Exercice.dll
+D:\C#\Exercice\Exercice\bin\Release\net9.0\Exercice.pdb
+D:\C#\Exercice\Exercice\obj\Release\net9.0\Exercice.csproj.AssemblyReference.cache
+D:\C#\Exercice\Exercice\obj\Release\net9.0\Exercice.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Exercice\Exercice\obj\Release\net9.0\Exercice.AssemblyInfoInputs.cache
+D:\C#\Exercice\Exercice\obj\Release\net9.0\Exercice.AssemblyInfo.cs
+D:\C#\Exercice\Exercice\obj\Release\net9.0\Exercice.csproj.CoreCompileInputs.cache
+D:\C#\Exercice\Exercice\obj\Release\net9.0\Exercice.dll
+D:\C#\Exercice\Exercice\obj\Release\net9.0\refint\Exercice.dll
+D:\C#\Exercice\Exercice\obj\Release\net9.0\Exercice.pdb
+D:\C#\Exercice\Exercice\obj\Release\net9.0\ref\Exercice.dll

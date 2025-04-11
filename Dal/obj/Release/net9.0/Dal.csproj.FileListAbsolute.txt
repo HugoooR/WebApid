@@ -1,0 +1,17 @@
+D:\C#\Exercice\Dal\bin\Release\net9.0\Dal.deps.json
+D:\C#\Exercice\Dal\bin\Release\net9.0\Dal.runtimeconfig.json
+D:\C#\Exercice\Dal\bin\Release\net9.0\Dal.dll
+D:\C#\Exercice\Dal\bin\Release\net9.0\Dal.pdb
+D:\C#\Exercice\Dal\bin\Release\net9.0\Exercice.dll
+D:\C#\Exercice\Dal\bin\Release\net9.0\Exercice.pdb
+D:\C#\Exercice\Dal\obj\Release\net9.0\Dal.csproj.AssemblyReference.cache
+D:\C#\Exercice\Dal\obj\Release\net9.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Exercice\Dal\obj\Release\net9.0\Dal.AssemblyInfoInputs.cache
+D:\C#\Exercice\Dal\obj\Release\net9.0\Dal.AssemblyInfo.cs
+D:\C#\Exercice\Dal\obj\Release\net9.0\Dal.csproj.CoreCompileInputs.cache
+D:\C#\Exercice\Dal\obj\Release\net9.0\Dal.csproj.Up2Date
+D:\C#\Exercice\Dal\obj\Release\net9.0\Dal.dll
+D:\C#\Exercice\Dal\obj\Release\net9.0\refint\Dal.dll
+D:\C#\Exercice\Dal\obj\Release\net9.0\Dal.pdb
+D:\C#\Exercice\Dal\obj\Release\net9.0\Dal.genruntimeconfig.cache
+D:\C#\Exercice\Dal\obj\Release\net9.0\ref\Dal.dll

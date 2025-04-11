@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adresse Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gérer les adresses</h1>
+
+        <div class="action-section">
+            <button id="listAddressesButton">Afficher toutes les adresses</button>
+        </div>
+        <div id="addressesList">
+            <h2>Liste des adresses</h2>
+        </div>
+
+        <div class="action-section">
+            <h2>Rechercher une adresse par ID</h2>
+            <input type="number" id="specificAddressID" placeholder="Entrez l'ID de l'adresse">
+            <button id="getSpecificAddressButton">Rechercher</button>
+        </div>
+        <div id="specificAddress">
+        </div>
+
+        <h2>Créer une adresse</h2>
+        <form id="createAddressForm">
+            <input type="text" id="street" placeholder="Street" required>
+            <input type="text" id="zipCode" placeholder="Zip Code" required>
+            <input type="text" id="city" placeholder="City" required>
+            <input type="text" id="country" placeholder="Country" required>
+            <input type="number" id="clientID" placeholder="Client ID" required>
+            <button type="submit">Ajouter l'adresse</button>
+        </form>
+
+        <h2>Modifier une adresse</h2>
+        <form id="updateAddressForm">
+            <input type="number" id="updateAddressID" placeholder="Address ID" required>
+            <input type="text" id="updateStreet" placeholder="Street">
+            <input type="text" id="updateZipCode" placeholder="Zip Code">
+            <input type="text" id="updateCity" placeholder="City">
+            <input type="text" id="updateCountry" placeholder="Country">
+            <input type="number" id="updateClientID" placeholder="Client ID">
+            <button type="submit">Modifier l'adresse</button>
+        </form>
+
+        <h2>Supprimer une adresse</h2>
+        <form id="deleteAddressForm">
+            <input type="number" id="deleteAddressID" placeholder="Address ID" required>
+            <button type="submit">Supprimer l'adresse</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
