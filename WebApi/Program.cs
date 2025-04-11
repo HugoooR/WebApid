@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseUrls("http://+:8080");
+//builder.WebHost.UseUrls("http://+:8080");
 
 var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContext");
 
@@ -14,9 +14,9 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<DbContext>(
-    optionsBuilder => optionsBuilder.UseNpgsql(connectionString)
-);
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseMySQL(connectionString));
+
 
 builder.Services.AddCors(options =>
 {
@@ -49,7 +49,7 @@ app.UseExceptionHandler(appBuilder =>
 });
 
 app.UseCors();
-// app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 app.UseAuthorization();
 app.UseStaticFiles();
 
