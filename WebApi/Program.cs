@@ -1,31 +1,34 @@
 using Dal;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.WebHost.UseUrls("http://+:8080");
 
-builder.Services.AddControllers();
+var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContext");
+
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+});
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<DbContext>(
+    optionsBuilder => optionsBuilder.UseNpgsql(connectionString)
+);
 
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("https://angular-product-wheat.vercel.app/products")  
-              .AllowAnyMethod()
-              .AllowAnyHeader();
+        var allowedOrigins = builder.Configuration["AllowedOrigins"]?.Split(',') ?? new[] { "https://angular-product-wheat.vercel.app/products" };
+        policy
+            .WithOrigins(allowedOrigins)
+            .WithMethods("GET", "POST", "PUT", "DELETE", "PATCH")
+            .AllowAnyHeader();
     });
 });
-
-builder.Services.AddDbContext<ApplicationDbContext>(optionsBuilder =>
-    optionsBuilder.UseNpgsql(
-        builder.Configuration.GetConnectionString("ApplicationDbContext")
-    )
-);
-
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -35,13 +38,20 @@ if (app.Environment.IsDevelopment() || Environment.GetEnvironmentVariable("Enabl
     app.UseSwaggerUI();
 }
 
+app.UseExceptionHandler(appBuilder =>
+{
+    appBuilder.Run(async context =>
+    {
+        context.Response.StatusCode = 500;
+        context.Response.ContentType = "application/json";
+        await context.Response.WriteAsJsonAsync(new { Error = "Internal error occured" });
+    });
+});
+
 app.UseCors();
-
-app.UseStaticFiles();
-
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
+app.UseStaticFiles();
 
 app.MapControllers();
 
