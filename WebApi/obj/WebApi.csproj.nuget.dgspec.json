@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Exercice\\WebApi\\WebApi.csproj": {}
+    "D:\\C#\\Exercice\\WebApid\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Exercice\\Dal\\Dal.csproj": {
+    "D:\\C#\\Exercice\\WebApid\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Exercice\\Dal\\Dal.csproj",
+        "projectUniqueName": "D:\\C#\\Exercice\\WebApid\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "D:\\C#\\Exercice\\Dal\\Dal.csproj",
+        "projectPath": "D:\\C#\\Exercice\\WebApid\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Exercice\\Dal\\obj\\",
+        "outputPath": "D:\\C#\\Exercice\\WebApid\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\C#\\Exercice\\Exercice\\Exercice.csproj": {
-                "projectPath": "D:\\C#\\Exercice\\Exercice\\Exercice.csproj"
+              "D:\\C#\\Exercice\\WebApid\\Exercice\\Exercice.csproj": {
+                "projectPath": "D:\\C#\\Exercice\\WebApid\\Exercice\\Exercice.csproj"
               }
             }
           }
@@ -68,6 +68,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -90,14 +94,14 @@
         }
       }
     },
-    "D:\\C#\\Exercice\\Exercice\\Exercice.csproj": {
+    "D:\\C#\\Exercice\\WebApid\\Exercice\\Exercice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Exercice\\Exercice\\Exercice.csproj",
+        "projectUniqueName": "D:\\C#\\Exercice\\WebApid\\Exercice\\Exercice.csproj",
         "projectName": "Exercice",
-        "projectPath": "D:\\C#\\Exercice\\Exercice\\Exercice.csproj",
+        "projectPath": "D:\\C#\\Exercice\\WebApid\\Exercice\\Exercice.csproj",
         "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Exercice\\Exercice\\obj\\",
+        "outputPath": "D:\\C#\\Exercice\\WebApid\\Exercice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,14 +170,14 @@
         }
       }
     },
-    "D:\\C#\\Exercice\\WebApi\\WebApi.csproj": {
+    "D:\\C#\\Exercice\\WebApid\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Exercice\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "D:\\C#\\Exercice\\WebApid\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\C#\\Exercice\\WebApi\\WebApi.csproj",
+        "projectPath": "D:\\C#\\Exercice\\WebApid\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Exercice\\WebApi\\obj\\",
+        "outputPath": "D:\\C#\\Exercice\\WebApid\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -195,8 +199,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\C#\\Exercice\\Dal\\Dal.csproj": {
-                "projectPath": "D:\\C#\\Exercice\\Dal\\Dal.csproj"
+              "D:\\C#\\Exercice\\WebApid\\Dal\\Dal.csproj": {
+                "projectPath": "D:\\C#\\Exercice\\WebApid\\Dal\\Dal.csproj"
               }
             }
           }
@@ -230,6 +234,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
