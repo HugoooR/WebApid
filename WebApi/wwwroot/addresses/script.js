@@ -1,4 +1,4 @@
-﻿const API_URL = 'https://localhost:7293/api/address';
+﻿const API_URL = 'https://webapid.onrender.com/api/address';
 
 document.getElementById('listAddressesButton').addEventListener('click', async () => {
     try {
