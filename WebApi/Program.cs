@@ -49,7 +49,7 @@ app.UseExceptionHandler(appBuilder =>
 });
 
 app.UseCors();
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 app.UseAuthorization();
 app.UseStaticFiles();
 
