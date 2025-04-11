@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//builder.WebHost.UseUrls("http://+:8080");
+builder.WebHost.UseUrls("http://+:8080");
 
 var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContext");
 
