@@ -20,11 +20,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(policy =>
+    options.AddPolicy("AllowFrontend", policy =>
     {
-        var allowedOrigins = builder.Configuration["AllowedOrigins"]?.Split(',') ?? new[] { "https://angular-product-wheat.vercel.app/products" };
         policy
-            .WithOrigins(allowedOrigins)
+            .WithOrigins("https://angular-product-wheat.vercel.app")
             .WithMethods("GET", "POST", "PUT", "DELETE", "PATCH")
             .AllowAnyHeader();
     });
@@ -48,7 +47,7 @@ app.UseExceptionHandler(appBuilder =>
     });
 });
 
-app.UseCors();
+app.UseCors("AllowFrontend");
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.UseStaticFiles();
