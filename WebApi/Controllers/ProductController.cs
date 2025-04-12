@@ -39,6 +39,25 @@ namespace WebApi.Controllers
             return Ok(product);
         }
 
+        [HttpGet("search")]
+        public IActionResult SearchProducts([FromQuery] string term)
+        {
+            if (string.IsNullOrWhiteSpace(term))
+                return BadRequest("Search term is required");
+        
+            var lowerTerm = term.ToLower();
+        
+            var results = context.Products
+                .Where(p => 
+                    p.Name.ToLower().Contains(lowerTerm) ||
+                    p.Description.ToLower().Contains(lowerTerm) ||
+                    p.ProductID.ToString() == term
+                )
+                .ToList();
+        
+            return Ok(results);
+        }
+
         [HttpPost]
         public IActionResult AddProduct([FromBody] Product product)
         {
